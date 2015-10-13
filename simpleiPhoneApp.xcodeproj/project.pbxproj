@@ -14,6 +14,8 @@
 		2908F3D81B74607A0062B512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2908F3D71B74607A0062B512 /* Images.xcassets */; };
 		2908F3DB1B74607A0062B512 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2908F3D91B74607A0062B512 /* LaunchScreen.xib */; };
 		2908F3E71B74607A0062B512 /* simpleiPhoneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2908F3E61B74607A0062B512 /* simpleiPhoneAppTests.m */; };
+		298E05331BAA57D800D21E62 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 298E05321BAA57D800D21E62 /* FactBook.m */; };
+		29D5909C1BAD2BA300B8DB5F /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D5909B1BAD2BA300B8DB5F /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2908F3E01B74607A0062B512 /* simpleiPhoneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleiPhoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2908F3E51B74607A0062B512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2908F3E61B74607A0062B512 /* simpleiPhoneAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleiPhoneAppTests.m; sourceTree = "<group>"; };
+		298E05311BAA57D800D21E62 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		298E05321BAA57D800D21E62 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		29D5909A1BAD2BA300B8DB5F /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		29D5909B1BAD2BA300B8DB5F /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				2908F3CF1B74607A0062B512 /* AppDelegate.m */,
 				2908F3D11B74607A0062B512 /* ViewController.h */,
 				2908F3D21B74607A0062B512 /* ViewController.m */,
+				298E05311BAA57D800D21E62 /* FactBook.h */,
+				298E05321BAA57D800D21E62 /* FactBook.m */,
+				29D5909A1BAD2BA300B8DB5F /* ColorWheel.h */,
+				29D5909B1BAD2BA300B8DB5F /* ColorWheel.m */,
 				2908F3D41B74607A0062B512 /* Main.storyboard */,
 				2908F3D71B74607A0062B512 /* Images.xcassets */,
 				2908F3D91B74607A0062B512 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				2908F3D31B74607A0062B512 /* ViewController.m in Sources */,
 				2908F3D01B74607A0062B512 /* AppDelegate.m in Sources */,
+				298E05331BAA57D800D21E62 /* FactBook.m in Sources */,
 				2908F3CD1B74607A0062B512 /* main.m in Sources */,
+				29D5909C1BAD2BA300B8DB5F /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				2908F3EC1B74607A0062B512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2908F3ED1B74607A0062B512 /* Build configuration list for PBXNativeTarget "simpleiPhoneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				2908F3EF1B74607A0062B512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
